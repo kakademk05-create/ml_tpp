@@ -1,0 +1,7 @@
+Model Architecture,Parameters Utilized,Accuracy,Precision,Recall,F1-Score
+Decision Tree,"{'max_depth': 6, 'min_samples_split': 10}",0.6275915024315332,0.6310452418096724,0.9853836784409257,0.7693770803613885
+Bagging Classifier,"{'n_estimators': 50, 'base_estimator_max_depth': 5}",0.6304069618633222,0.6304069618633222,1.0,0.7733124018838304
+Random Forest,"{'n_estimators': 150, 'max_depth': 10, 'min_samples_leaf': 4}",0.6301510110058869,0.6303790983606558,0.999187982135607,0.7730485314904979
+AdaBoost,"{'n_estimators': 120, 'learning_rate': 0.5}",0.6304069618633222,0.6304069618633222,1.0,0.7733124018838304
+Gradient Boosting,"{'n_estimators': 120, 'learning_rate': 0.08, 'max_depth': 5}",0.6257998464294855,0.6313993174061433,0.9764514819326026,0.7669005102040817
+XGBoost (HistGradient),"{'max_iter': 150, 'learning_rate': 0.08, 'max_depth': 5}",0.6304069618633222,0.6304069618633222,1.0,0.7733124018838304
